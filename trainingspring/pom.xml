@@ -8,7 +8,7 @@
 		<version>3.4.4</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.example</groupId>
+	<groupId>com.example.demo</groupId>
 	<artifactId>trainingspring</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>trainingspring</name>
@@ -80,6 +80,15 @@
 	        <artifactId>spring-boot-starter-test</artifactId>
 	        <scope>test</scope>
 	    </dependency>
+	    
+	    <dependency>
+		    <groupId>org.hibernate.validator</groupId>
+		    <artifactId>hibernate-validator</artifactId>
+		    </dependency>
+		<dependency>
+		    <groupId>jakarta.validation</groupId>
+		    <artifactId>jakarta.validation-api</artifactId>
+		    </dependency>
 	</dependencies>
 
 	<build>
